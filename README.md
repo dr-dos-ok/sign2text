@@ -1,4 +1,4 @@
-# sign2text
+# sign2text for American sign language
 ### Real-time AI-powered translation of American sign language to text
 
 The project focuses on translating American Sign Language (ASL) [fingerspelled alphabet](http://lifeprint.com/asl101/topics/wallpaper1.htm) (26 letters). I utilised transfer learning to extract features, followed by a custom classification block to classify letters. This model is then implemented in a real-time system with OpenCV - reading frames from a web camera and classifying them frame-by-frame. This repository contains the code & weights for classifying the American Sign Language (ASL) alphabet in real-time.
